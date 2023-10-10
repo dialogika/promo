@@ -8635,6 +8635,7 @@ page-section & Timeline
     box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
   -webkit-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
   -moz-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
+
 }
 
 .course-details__price-amount {
@@ -8667,12 +8668,14 @@ page-section & Timeline
     box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
   -webkit-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
   -moz-box-shadow: 0px 9px 16px -6px rgba(32,191,240,1);
+    background-color: #fff;
 }
 
 .course-details__sidebar-meta-list {
     position: relative;
     display: block;
     overflow: hidden;
+
 }
 
 .course-details__sidebar-meta-list-item {
@@ -8682,6 +8685,7 @@ page-section & Timeline
     border-bottom: 1px solid #e0e2e9;
     margin-bottom: 20px;
     padding-bottom: 20px;
+
 }
 
 .course-details__sidebar-meta-list-item:last-child {
