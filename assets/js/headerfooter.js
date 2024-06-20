@@ -80,30 +80,30 @@ class Header extends HTMLElement {
             </li>
           <li class="dropdown"><a href="#"><span>Intern</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-                <li><a href="client-manager.html">
+                <li><a href="../intern/client-manager.html">
                     <span>Client Manager</span>
                     <span class="badge bg-success">Best</span></a>
                 </li>
-                <li><a href="video-editing.html">Video Editor</a></li>
+                <li><a href="../intern/video-editing.html">Video Editor</a></li>
                 <li><hr/></li>
-                <li><a href="deal-maker.html">
+                <li><a href="../intern/deal-maker.html">
                     <span>Deal Maker</span>
                     <span class="badge bg-success">Best</span>
                 </a></li>
-                <li><a href="digital-marketing.html">Digital Marketing</a>
+                <li><a href="../intern/digital-marketing.html">Digital Marketing</a>
                 <li><hr/></li>
-                <li><a href="model-talent.html">
+                <li><a href="../intern/model-talent.html">
                     <span>Model Talent</span>
                     <span class="badge bg-success">Best</span>
                 </a></li>
-                <li><a href="content-writing.html">Content Writing</a></li>
-                <li><a href="design-specialist.html">Design Specialist</a></li>
-                <li><a href="html-writing.html">HTML Writing</a></li>
+                <li><a href="../intern/content-writing.html">Content Writing</a></li>
+                <li><a href="../intern/design-specialist.html">Design Specialist</a></li>
+                <li><a href="../intern/html-writing.html">HTML Writing</a></li>
                 
                 </li>
                 <li><hr/></li>
-                <li><a href="people-development.html">People Development</a></li>
-                <li><a href="recruiter-specialist.html">
+                <li><a href="../intern/people-development.html">People Development</a></li>
+                <li><a href="../intern/recruiter-specialist.html">
                     <span>Recruiter Specialist</span>
                     <span class="badge bg-success">Best</span>
                 </a></li>
@@ -206,14 +206,14 @@ class Header extends HTMLElement {
                 </div>
               </a>
               <div class="collapse" id="training-collapse">
-                <a href="basic-public.html"><div class="card card-body">Basic Public Speaking</div></a>
-                <a href="high-impact.html"><div class="card card-body">High Impact Presentation</div></a>
+                <a href="../corporate/basic-public.html"><div class="card card-body">Basic Public Speaking</div></a>
+                <a href="../corporate/high-impact.html"><div class="card card-body">High Impact Presentation</div></a>
                 <hr/>
-                <a href="daily-briefing.html"><div class="card card-body">Daily Briefing</div></a>
-                <a href="sales-pitch.html"><div class="card card-body">Sales Pitch</div></a>
-                <a href="handling-complain.html"><div class="card card-body">Handling Complain</div></a>
-                <a href="hospitality.html"><div class="card card-body">Hospitality</div></a>
-                <a href="host-live.html"><div class="card card-body">Host Live</div></a>
+                <a href="../corporate/daily-briefing.html"><div class="card card-body">Daily Briefing</div></a>
+                <a href="../corporate/sales-pitch.html"><div class="card card-body">Sales Pitch</div></a>
+                <a href="../corporate/handling-complain.html"><div class="card card-body">Handling Complain</div></a>
+                <a href="../corporate/hospitality.html"><div class="card card-body">Hospitality</div></a>
+                <a href="../corporate/host-live.html"><div class="card card-body">Host Live</div></a>
               </div>
             </div>
                 <div class="card">
@@ -223,34 +223,34 @@ class Header extends HTMLElement {
                     </div>
                   </a>
                   <div class="collapse" id="position-collapse">
-                    <a href="client-manager.html"><div class="card card-body">
+                    <a href="../intern/client-manager.html"><div class="card card-body">
                       <div class="d-flex justify-content-between">
                           <span>Client Manager</span>
                           <span class="badge bg-warning rounded-pill">Best</span>
                       </div>
                     </div></a>
-                    <a href="video-editing.html"><div class="card card-body">Video Editor</div></a>
+                    <a href="../intern/video-editing.html"><div class="card card-body">Video Editor</div></a>
                     <hr/>
-                    <a href="deal-maker.html"><div class="card card-body">
+                    <a href="../intern/deal-maker.html"><div class="card card-body">
                       <div class="d-flex justify-content-between">
                           <span>Deal Maker</span>
                           <span class="badge bg-warning rounded-pill">Best</span>
                       </div>
                     </div></a>
-                    <a href="digital-marketing.html"><div class="card card-body">Digital Marketing</div></a>
+                    <a href="../intern/digital-marketing.html"><div class="card card-body">Digital Marketing</div></a>
                     <hr/>
-                    <a href="model-talent.html"><div class="card card-body">
+                    <a href="../intern/model-talent.html"><div class="card card-body">
                       <div class="d-flex justify-content-between">
                           <span>Model Talent</span>
                           <span class="badge bg-warning rounded-pill">Best</span>
                       </div>
                     </div></a>
-                    <a href="content-writing.html"><div class="card card-body">Content Writing</div></a>
-                    <a href="design-specialist.html"><div class="card card-body">Design Specialist</div></a>
-                    <a href="html-writing.html"><div class="card card-body">HTML Writing</div></a>
+                    <a href="../intern/content-writing.html"><div class="card card-body">Content Writing</div></a>
+                    <a href="../intern/design-specialist.html"><div class="card card-body">Design Specialist</div></a>
+                    <a href="../intern/html-writing.html"><div class="card card-body">HTML Writing</div></a>
                     <hr/>
-                    <a href="people-development.html"><div class="card card-body">People Development</div></a>
-                    <a href="recruiter-specialist.html"><div class="card card-body">
+                    <a href="../intern/people-development.html"><div class="card card-body">People Development</div></a>
+                    <a href="../intern/recruiter-specialist.html"><div class="card card-body">
                         <span>Recruiter Specialist</span>
                     </div></a>
 
