@@ -1,16 +1,17 @@
-#readMore{
+.readMore{
     display:inline-block;
     color:blue;
   }
-  #readLess{
+  .readLess{
     display:none;
     color:blue;
   }
-  #readMore:hover,#readLess:hover{
+  .readMore:hover, .readLess:hover{
     color:navy;
     cursor:pointer;
     text-decoration:underline;
   }
-  #moreText{
+  .moreText{
     display:none;
   }
+  
