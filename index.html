@@ -270,6 +270,21 @@
   </head>
 
   <body>
+    <!-- Read More and Read Less -->
+    <script>
+      $(document).ready(function(){
+         $('#readMore').click(function(){
+           $("#dots,#readMore").css("display","none");
+           $("#moreText,#readLess").css("display","inline");
+         });
+         $('#readLess').click(function(){
+           $("#dots,#readMore").css("display","inline");
+           $("#moreText,#readLess").css("display","none");
+         });
+      });
+    </script>
+    <!-- End Read More and Read Less -->
+    
     <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe
