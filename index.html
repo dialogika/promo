@@ -273,15 +273,19 @@
     <!-- Read More and Read Less -->
     <script>
       $(document).ready(function(){
-         $('#readMore').click(function(){
-           $("#dots,#readMore").css("display","none");
-           $("#moreText,#readLess").css("display","inline");
-         });
-         $('#readLess').click(function(){
-           $("#dots,#readMore").css("display","inline");
-           $("#moreText,#readLess").css("display","none");
-         });
+        $('.readMore').click(function(){
+          var parent = $(this).closest('p');
+          parent.find(".dots, .readMore").css("display", "none");
+          parent.find(".moreText, .readLess").css("display", "inline");
+        });
+
+        $('.readLess').click(function(){
+          var parent = $(this).closest('p');
+          parent.find(".dots, .readMore").css("display", "inline");
+          parent.find(".moreText, .readLess").css("display", "none");
+        });
       });
+
     </script>
     <!-- End Read More and Read Less -->
     
@@ -513,7 +517,7 @@
                         </h4>
                         <p>
                           <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                          Satu bulan lalu saya mengikuti private class dialogika di Solo dgn tutor Kak Indri. Tutor sangat baik dan ramah. Sabar juga mengajari saya cara public speaking. Dari dialogika saya bisa lebih merasa PD, sudah mengurangi rasa grogi, dan yang paling penting sudah bisa mengatur kalimat dengan baik jika diharuskan <span id="dots">...</span><span id="readMore"> Read More &raquo;</span><span id="moreText">berbicara di dpn umum secara spontan. Sangat2 recommended buat teman2 lain yg ingin belajar mengimprove public speakingnya ❤️</span><span id="readLess"> &laquo; Read Less</span>
+                          Satu bulan lalu saya mengikuti private class dialogika di Solo dgn tutor Kak Indri. Tutor sangat baik dan ramah. Sabar juga mengajari saya cara public speaking. Dari dialogika saya bisa lebih merasa PD, sudah mengurangi rasa grogi, dan yang paling penting sudah bisa mengatur kalimat dengan baik jika diharuskan <span class="dots">...</span><span class="readMore"> Read More &raquo;</span><span class="moreText">berbicara di dpn umum secara spontan. Sangat2 recommended buat teman2 lain yg ingin belajar mengimprove public speakingnya ❤️</span><span class="readLess"> &laquo; Read Less</span>
                           <i
                             class="bx bxs-quote-alt-right quote-icon-right"
                           ></i>
@@ -541,8 +545,8 @@
                         </h4>
                         <p>
                           <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                          Baru saja selesai mengikuti class disini, dari sisi umur saya lah yang paling tua hahaha, tapi tidak menyurutkan semangat saya untuk belajar kelas public speaking demi menunjang karir saya. class yang sangat menyenangkan disetiap sesinya, belajar ilmu public speaking yang dapat menambah kepercayaan diri.<span id="dots">...</span><span id="readMore"> Read More &raquo;</span>
-                          <span id="moreText">Disini lah tempat dimana kita tidak malu untuk melakukan kesalahan. trima kasih untuk semua tim dialogika dan khususnya untuk mba fany mentor kami yang selalu ceria dalam membersamai kami selama kami belajar di dialogika, atas ilmu yang diberikan. Semoga semakin sukses  kedepannya</span><span id="readLess"> &laquo; Read Less</span>
+                          Baru saja selesai mengikuti class disini, dari sisi umur saya lah yang paling tua hahaha, tapi tidak menyurutkan semangat saya untuk belajar kelas public speaking demi menunjang karir saya. class yang sangat menyenangkan disetiap sesinya, belajar ilmu public speaking yang dapat menambah kepercayaan diri.<span class="dots">...</span><span class="readMore"> Read More &raquo;</span>
+                          <span class="moreText">Disini lah tempat dimana kita tidak malu untuk melakukan kesalahan. trima kasih untuk semua tim dialogika dan khususnya untuk mba fany mentor kami yang selalu ceria dalam membersamai kami selama kami belajar di dialogika, atas ilmu yang diberikan. Semoga semakin sukses  kedepannya</span><span class="readLess"> &laquo; Read Less</span>
                           <i
                             class="bx bxs-quote-alt-right quote-icon-right"
                           ></i>
@@ -570,8 +574,8 @@
                         </h4>
                         <p>
                           <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                          Salah satu tempat kursus public speaking yang bagus sekali, saya mengambil private class online, jadi pertemuannya dilakukan via zoom meeting. Mentor yang mengajar sangat ramah dan seru, membuat saya tidak bosan selama kelas berlangsung, materi dijelaskan dengan sangat baik dan mudah dipahami.<span id="dots">...</span><span id="readMore"> Read More &raquo;</span><span id="moreText"> Selain itu, mentor juga selalu mendengarkan kesulitan saya terkait public speaking.
-                          Terima kasih dialogika dan miss Malla yang sudah memberikan saya ilmu selama 7 kali pertemuan kemarin 🙏🏻🙏🏻</span><span id="readLess"> &laquo; Read Less</span>
+                          Salah satu tempat kursus public speaking yang bagus sekali, saya mengambil private class online, jadi pertemuannya dilakukan via zoom meeting. Mentor yang mengajar sangat ramah dan seru, membuat saya tidak bosan selama kelas berlangsung, materi dijelaskan dengan sangat baik dan mudah dipahami.<span class="dots">...</span><span class="readMore"> Read More &raquo;</span><span class="moreText"> Selain itu, mentor juga selalu mendengarkan kesulitan saya terkait public speaking.
+                          Terima kasih dialogika dan miss Malla yang sudah memberikan saya ilmu selama 7 kali pertemuan kemarin 🙏🏻🙏🏻</span><span class="readLess"> &laquo; Read Less</span>
                           <i
                             class="bx bxs-quote-alt-right quote-icon-right"
                           ></i>
@@ -599,9 +603,9 @@
                         </h4>
                         <p>
                           <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                          Pub Speaking Class yang bisa dihadiri offline di Jogja, saya menjadi peserta kelas reguler di sini dan pengalaman saya selama menjadi peserta kelas alhamdulillah dipertemukan dengan kak vanny as a coach/mentor yang menyenangkan dan selalu antusias dalam berbagi ilmunya sebagai seorang expertise pub speaker. <span id="dots">...</span><span id="readMore"> Read More &raquo;</span><span id="moreText">Para pegawai yang ada di daheim pun  ramah-ramah juga dalam menyambut tiap peserta kelas. Overall menyenangkan dan membantu juga dalam memperdalam ilmu pub speaking dengan guarantee nya yang bisa tetap mengikuti kelas meskipun sudah dinyatakan lulus.
+                          Pub Speaking Class yang bisa dihadiri offline di Jogja, saya menjadi peserta kelas reguler di sini dan pengalaman saya selama menjadi peserta kelas alhamdulillah dipertemukan dengan kak vanny as a coach/mentor yang menyenangkan dan selalu antusias dalam berbagi ilmunya sebagai seorang expertise pub speaker. <span class="dots">...</span><span class="readMore"> Read More &raquo;</span><span class="moreText">Para pegawai yang ada di daheim pun  ramah-ramah juga dalam menyambut tiap peserta kelas. Overall menyenangkan dan membantu juga dalam memperdalam ilmu pub speaking dengan guarantee nya yang bisa tetap mengikuti kelas meskipun sudah dinyatakan lulus.
                           Sedikit saran kalau ada yg perlu diperbaiki adalah mungkin pengadaaan kelas terpisah dengan ruang kerja para karyawan intern supaya para peserta kelas bisa lebih maksimal dalam menyerap ilmu yang disampaikan, juga responsibilitas admin kelas dalam menanggapi peserta kelas bisa lebih ditingkatkan, but overall sudah sangat cukup membantuu
-                          Thanks and good job buat kak vanny dan kaka-kaka Dialogika semuanyaa</span><span id="readLess"> &laquo; Read Less</span>
+                          Thanks and good job buat kak vanny dan kaka-kaka Dialogika semuanyaa</span><span class="readLess"> &laquo; Read Less</span>
                           <i
                             class="bx bxs-quote-alt-right quote-icon-right"
                           ></i>
