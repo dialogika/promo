@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-/*  box-sizing: border-box;*/
+  /*  box-sizing: border-box;*/
 }
 
 .scrolling-zoom .wrapper,
@@ -22,7 +22,7 @@
 }
 
 .scrolling-zoom .content .section.hero {
-  background-image: url('../../img/promo.webp');
+  background-image: url("https://www.ox.ac.uk/sites/files/oxford/field/field_image_main/GettyImages-869174338%20%281%29.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
