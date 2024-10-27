@@ -22,7 +22,7 @@
 }
 
 .scrolling-zoom .content .section.hero {
-  background-image: url("assets/img/promo-header-1.webp");
+  background-image: url("../../img/promo-header-1.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
