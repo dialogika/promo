@@ -7,6 +7,7 @@
 .scrolling-zoom .wrapper,
 .scrolling-zoom .content {
   position: relative;
+  overflow: hidden;
   width: 100%;
   z-index: 1;
 }
@@ -22,10 +23,14 @@
 }
 
 .scrolling-zoom .content .section.hero {
-  background-image: url("../../img/promo-header-2.webp");
+  background-image: url("../../img/promo-header-3.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.scrolling-zoom .content .section.hero::-webkit-scrollbar {
+display: none;
 }
 
 .scrolling-zoom .image-container {
