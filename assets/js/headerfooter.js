@@ -68,20 +68,20 @@ class Header extends HTMLElement {
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="../corporate/">Corporate</a></li>
-          <li><a class="nav-link scrollto" href="../about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="../intern">Internship</a></li>
           <li class="dropdown" style="color: #0b2b6a"><a disabled><span>More</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="../event/">Event</a></li>
-              <li><a href="../intern">Internship</a></li>
               <li><a href="../shop">Shop</a></li>
               <li><a href="../blog">Blog</a></li>
               <li><a href="../service/">Service</a></li>
+              <li><a href="../about/">About Us</a></li>
             </ul>
           </li>
           
         </ul>
         <i class="bi bi-list d-block d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"></i>
-       </nav><!-- .navbar -->
+         </nav><!-- .navbar -->
 
       <a href="https://www.dialogika.co/program/" class="appointment-btn">Daftar <span class="d-md-inline">Sekarang</span></a>
 
