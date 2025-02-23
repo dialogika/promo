@@ -23,14 +23,14 @@
 }
 
 .scrolling-zoom .content .section.hero {
-  background-image: url("../../img/promo-header-1.webp");
+  background-image: url("../../img/promo-header-2.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .scrolling-zoom .content .section.hero::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
 .scrolling-zoom .image-container {
