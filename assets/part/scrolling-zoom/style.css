@@ -22,8 +22,9 @@
   height: 100vh;
 }
 
+/* https://www.asiavisioncapital.com/wp-content/uploads/2024/10/Comprehensive-Support.jpg.webp */
 .scrolling-zoom .content .section.hero {
-  background-image: url("https://www.asiavisioncapital.com/wp-content/uploads/2024/10/Comprehensive-Support.jpg.webp");
+  background-image: url("/assets/img/promo-header-2.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
