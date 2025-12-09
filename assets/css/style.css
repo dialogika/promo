@@ -2656,3 +2656,362 @@ section {
   box-shadow: 0px 0px 10px 2px #fcf221;
   -webkit-box-shadow: 0px 0px 10px 2px #fcf221;
 }
+button.send_contact {
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #0f61a8 5%, #0b2b6a 100%);
+  box-shadow: 0px 5px 16px -6px rgba(114, 4, 207, 1);
+  cursor: pointer;
+  display: inline-block;
+}
+
+button.send_contact:hover {
+  background: linear-gradient(to bottom, #0b2b6a 5%, #0f61a8 100%);
+  background-color: #0b2b6a;
+  color: #fff;
+  box-shadow: 0px 0px 4px 2px rgba(114, 4, 207, 0.75);
+}
+
+button.send_contact:active {
+  transform: scale(0.96);
+}
+
+.php-email-form .loading,
+.php-email-form .error-message,
+.php-email-form .sent-message {
+  display: none;
+}
+
+button.send_contact {
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #0f61a8 5%, #0b2b6a 100%);
+  box-shadow: 0px 5px 16px -6px rgba(114, 4, 207, 1);
+  -webkit-box-shadow: 0px 5px 16px -6px rgba(114, 4, 207, 1);
+  -moz-box-shadow: 0px 5px 16px -6px rgba(114, 4, 207, 1);
+  cursor: pointer;
+}
+
+button.send_contact:hover {
+  background: linear-gradient(to bottom, #0b2b6a 5%, #0f61a8 100%);
+  background-color: #0b2b6a;
+  color: #fff;
+  box-shadow: 0px 0px 4px 2px rgba(114, 4, 207, 0.75);
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(114, 4, 207, 0.75);
+  -moz-box-shadow: 0px 0px 4px 2px rgba(114, 4, 207, 0.75);
+}
+
+button.send_contact:active {
+  transform: scale(0.96);
+}
+
+/* ================================
+   SECTION BACKGROUND & TITLE
+=================================== */
+#contact.contact-append {
+    background: #eaf1f9;
+    padding: 70px 0;
+}
+
+.section-title h6 {
+    color: #0d6efd;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1e2b3a;
+}
+
+/* ================================
+   LEFT SIDE (MAP + INFO CARDS)
+=================================== */
+#contact iframe {
+    width: 100%;
+    height: 330px;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+    margin-bottom: 25px;
+}
+
+/* Info Cards (Call Us & Email Us) */
+.info-item {
+    background: #fff;
+    border-radius: 18px;
+    padding: 25px 28px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.10);
+    transition: 0.3s;
+}
+
+.info-item i {
+    font-size: 40px;
+    color: #004cff;
+    margin-bottom: 12px;
+}
+
+.info-item h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a2434;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Hover sedikit */
+.info-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 12px 32px rgba(0,0,0,0.15);
+}
+
+/* ================================
+   RIGHT SIDE — FORM CARD
+=================================== */
+.php-email-form {
+    background: #fff;
+    padding: 32px;
+    border-radius: 22px;
+    box-shadow: 0px 10px 35px rgba(0,0,0,0.18);
+}
+
+/* Inputs & Select */
+.php-email-form .form-control,
+.php-email-form select,
+.php-email-form textarea {
+    border-radius: 12px;
+    border: 1px solid #bbc6d6;
+    padding: 12px 15px;
+    font-size: 15px;
+    color: #2d3a4b;
+    transition: 0.25s;
+}
+
+.php-email-form .form-control:focus,
+.php-email-form select:focus,
+.php-email-form textarea:focus {
+    border-color: #0067ff;
+    box-shadow: 0 0 0 0.15rem rgba(0, 103, 255, 0.25);
+}
+
+/* Textarea */
+.php-email-form textarea {
+    resize: none;
+    height: 180px;
+}
+
+/* ================================
+   BUTTON — EXACT LIKE IMAGE
+=================================== */
+.send_contact {
+    background: linear-gradient(90deg, #004cff, #0a72ff);
+    border: none;
+    padding: 12px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+
+    /* Glow ungu khas dalam gambar */
+    box-shadow: 0px 6px 22px rgba(0, 68, 255, 0.45),
+                0px 0px 25px rgba(123, 0, 255, 0.35);
+
+    color: #fff;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.send_contact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 28px rgba(0, 68, 255, 0.55),
+                0px 0px 32px rgba(123, 0, 255, 0.45);
+}
+
+/* ================================
+   RESPONSIVE
+=================================== */
+@media (max-width: 992px) {
+    .php-email-form {
+        margin-top: 25px;
+    }
+}
+
+/* ================================
+   CONTACT SECTION — MEDILAB MATCH
+=================================== */
+
+/* Background Section */
+#contact.contact-append {
+    background: #f1f7fd;
+    padding: 60px 0;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h6 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    background: #e7f1fd;
+    color: #0b2b6a;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    color: #0b2b6a;
+}
+.section-title h2::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #0b2b6a;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+/* =================================
+   LEFT SIDE — MAP & INFO CARD
+==================================== */
+#contact iframe {
+    width: 100%;
+    height: 330px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+    margin-bottom: 25px;
+}
+
+/* Info Card */
+.info-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px 28px;
+    box-shadow: 0px 9px 16px -6px rgba(11, 43, 106, 0.7);
+    transition: 0.3s;
+}
+
+.info-item i {
+    font-size: 20px;
+    background: #d6e9fa;
+    color: #0b2b6a;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 12px;
+}
+
+.info-item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0b2b6a;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    font-size: 14px;
+    color: #4b7dab;
+}
+
+/* Hover effect */
+.info-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 12px 25px rgba(11, 43, 106, 0.25);
+}
+
+/* =================================
+   RIGHT SIDE — FORM CARD
+==================================== */
+.php-email-form {
+    width: 100%;
+    background: #fff;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+}
+
+.php-email-form .form-control,
+.php-email-form select,
+.php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    padding: 10px 12px;
+    transition: 0.3s;
+}
+
+.php-email-form input:focus,
+.php-email-form textarea:focus,
+.php-email-form select:focus {
+    border-color: #0b2b6a;
+}
+
+.php-email-form textarea {
+    height: 180px;
+    resize: none;
+}
+
+/* =================================
+   BUTTON — MEDILAB GRADIENT
+==================================== */
+.send_contact {
+    background: linear-gradient(to bottom, #0f61a8 5%, #0b2b6a 100%);
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+
+    box-shadow: 0px 5px 16px -6px rgba(114, 4, 207, 1);
+    transition: 0.3s;
+}
+
+.send_contact:hover {
+    background: linear-gradient(to bottom, #0b2b6a 5%, #0f61a8 100%);
+    box-shadow: 0px 0px 4px 2px rgba(114, 4, 207, 0.75);
+}
+
+/* =================================
+   RESPONSIVE
+==================================== */
+@media (max-width: 992px) {
+    .php-email-form {
+        margin-top: 25px;
+    }
+}
