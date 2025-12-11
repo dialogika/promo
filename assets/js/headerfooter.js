@@ -49,6 +49,7 @@ class Header extends HTMLElement {
                   <ul>
                     <li><a href="../program/first-class.html">First Class <span class="badge rounded-pill text-bg-success">Best Buy</span></a></li>
                     <li><a href="../program/first-kids.html">First Kids</a></li>
+                    <li><a href="../program/first-lite.html">First Lite</a></li>
                     <li><hr/></li>
                     <li><a href="../program/first-private.html">First Private</a></li>
                   </ul>
